@@ -1,9 +1,9 @@
-window.addEventListener('DO<ConyectLoaded', (event) => {
+window.addEventListener('DOMContentLoaded', (event) => {
     getVisitCount();
 })
 
 
-const functionApi = 'http://localhost:7071/api/GetResumeCounter';
+const functionApi = '';
 
 const getVisitCount = () => {
     let count = 30;
